@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/seis.css">
+
+</head>
+<body>
+    <div class="app">
+        <aside class="menu-aside">
+            <div class="logo">
+                <span class="i-logo i-logo2"><i class="fab fa-spotify s-logo"></i> Genero de musica</span>
+            </div>
+            <ul class="playlists" id="menuMusic">
+                <li class="playlist"><a href="#" class="play playelectro" id="cargarEstudiar">Electronica</a></li>
+                <li class="playlist" ><a href="#" class="play playfrozono">Bachata</a></li>
+                <li class="playlist"><a href="#" class="play playregue">Regueton</a></li>
+                <li class="playlist"><a href="#" class="play playcumbia">Cumbia</a></li>
+                <li class="playlist"><a href="#" class="play playfunk">Funk</a></li>
+                <li class="playlist"><a href="#" class="play playingles">Ingles</a></li>
+            </ul>
+        </aside>
+        <div class="album" id="album">
+            <div class="user">
+                <a href="#" class="close" id="close"><i class="far fa-times-circle"></i></a>
+                <span class="user-desc">  <i class="fas fa-user "></i>Liz </a></span>      
+            </div>
+
+            <div class="animate">      
+            </div>
+            <div class="album-description">
+                    <div class="album-img">
+                        <img id="imgAlbum" src="https://wallpapers.com/images/hd/earphones-for-music-4k-0ybw3rx0h3ncs3eo.jpg" width="250" height="150">
+                    </div>
+                    <div class="album-text">
+                        <div class="title">
+                            <span>Playlist:</span>
+                            <h2 id="titlePlaylist">Seleccione su playlist</h2>
+                        </div>
+                        <div class="description">
+                            <p id="playDescription">Reproduzca la playlist de su agrado !!!</p>
+                        </div>
+                        <div class="acciones">
+                            <input type="file" id="files" name="files[]" multiple />
+                            
+                            <a href="#" class="btn reaccion-inactiva" id="reaccion"><i class="fas fa-heart"></i></a>
+                        </div>
+                        </div>
+                </div>
+            <div class="album-list-music">
+                <ul class="list-music" id="lista-music">
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="reproducir">
+            <div class="controles" id="controles">
+            </div>
+        </div>
+        <script src="jav/tres.js"></script>
+</body>
+</html>

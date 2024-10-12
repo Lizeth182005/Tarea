@@ -1,0 +1,28 @@
+.box{
+    display: grid;
+    grid-gap: 15px;
+    background-image: linear-gradient(to left top, #842bc0, #7d168d, #6a0b61, #500b3d, #320d21, #3a1723, #412125, #472b2a, #794a3c, #a87147, #cd9e52, #e5d261);
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas:"header header header"
+                        "menu   menu   menu"
+                        "cont1  cont2  cont3"
+                        "foot   foot   foot";
+}
+.box .header{
+    grid-area:header;
+}
+.box .menu{
+    grid-area:menu;
+}
+.box .cont1{
+    grid-area: cont1;
+}
+.box .cont2{
+    grid-area: cont2;
+}
+.box .cont3{
+    grid-area: cont3;
+}
+.box .foot{
+    grid-area: foot;
+}

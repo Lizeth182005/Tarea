@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    user-select: none;
+    cursor: grab;
+    font-family: "Quicksand", sans-serif;
+    list-style: none;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: url("https://wallpapers.com/images/hd/aesthetic-computer-4k-2880-x-1800-a4xmrgfpavyv7jlh.jpg")
+      #fff;
+    background-size: cover;
+    background-position: center top;
+    overflow: hidden;
+    animation: zoom 60s linear infinite alternate;
+  }
+  
+  @keyframes zoom {
+    0% {
+      background-size: 100%;
+    }
+  
+    100% {
+      background-size: 160%;
+    }
+  }
+  
+  .note {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(62, 9, 118);
+    text-shadow: 0px 0px 4px rgb(145, 21, 183);
+    -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.3);
+  }
+  .note > .text {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .note > .meowish {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+  }
+  nav {
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10vmin;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel {
+    max-width: 1200px;
+    padding: 0 5vmin;
+    padding-top: 5vmin;
+  }
+  .carousel .card {
+    width: 45vmin;
+    height: 55vmin;
+    color: #fff;
+    text-align: center;
+    background: #fff;
+    border: 1vmin solid #fff;
+    cursor: pointer;
+    scale: 0.9;
+  }
+  
+  .carousel .card:hover {
+    scale: 1;
+    border: 1vmin solid #000;
+  }
+  
+  .carousel .card-1 {
+    background: url("https://grupopineda.eu/wp-content/uploads/2024/02/DALL%C2%B7E-2024-02-05-15.26.46-A-vibrant-and-detailed-illustration-of-a-futsal-match-in-progress-capturing-the-intensity-and-dynamics-of-the-game.-The-image-showcases-players-in-va.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel .card-2 {
+    background: url("https://storage.googleapis.com/pod_public/1300/161907.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel .card-3 {
+    background: url("https://blog.phonehouse.es/wp-content/uploads/2023/09/Volleyball-Championship.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel .card-4 {
+    background: url("https://images.squarespace-cdn.com/content/v1/5cd2555994d71a16b3b6ffc1/1704154098108-6E1HUZ21ZOWBQ5AHNA4V/image-asset.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel .card-5 {
+    background: url("https://i.pinimg.com/originals/6c/d8/38/6cd83899df0ac706f86d5ba3277638f3.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
